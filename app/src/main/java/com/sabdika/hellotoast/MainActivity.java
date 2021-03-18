@@ -30,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
-   public void countUp(View view) {
+    public void countUp(View view) {
         ++mCount;
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
-       if(mCount%2 !=0){
-           countButton.setBackgroundColor(getResources().getColor(R.color.teal_700));
-           button_zero.setBackgroundColor(getResources().getColor(R.color.pink));
-       }
-       else{
-           countButton.setBackgroundColor(getResources().getColor(R.color.blue));
-       }
+        if(mCount%2 !=0){
+            countButton.setBackgroundColor(getResources().getColor(R.color.teal_700));
+            button_zero.setBackgroundColor(getResources().getColor(R.color.pink));
+        }
+        else{
+            countButton.setBackgroundColor(getResources().getColor(R.color.blue));
+        }
     }
 
 
