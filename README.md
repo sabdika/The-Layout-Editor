@@ -1,4 +1,12 @@
 ## Hello Toast
-<img src="Task6_ShowToast.png" width="300">
-<img src="Task6_Completion.gif" width="300">
+<img src="Task3_RelativeLayoutCode.png" width="400">
+
+  <figcaption>Code to change the layout to RelativeLayout<figcaption>
+
+
+<img src="Task3_RelativeLayoutView.png" width="400">
+  
+  <figcaption>Change the layout to RelativeLayout<figcaption>
+
+
 
